@@ -10,11 +10,11 @@ public class NextFit {
         System.out.println("");
         
         Scanner in = new Scanner(System.in);
-        System.out.println("NÃºmeros de processos:");
+        System.out.println("Números de processos:");
         
         int p = in.nextInt();
 
-        System.out.println("NÃºmero de blocos de memÃ³ria:");
+        System.out.println("Número de blocos de memória:");
         int m = in.nextInt();
 
         int parr[] = new int[p],
