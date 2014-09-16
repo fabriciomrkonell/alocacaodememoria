@@ -12,9 +12,9 @@ public class BestFit {
         System.out.println("---------------BEST FIT---------------");
         System.out.println("");
         
-        System.out.println("NÃºmeros de processos:");
+        System.out.println("Números de processos:");
         p = in.nextInt();
-        System.out.println("NÃºmero de blocos de memÃ³ria:");
+        System.out.println("Número de blocos de memória:");
         m = in.nextInt();
 
         int tamProcessos[] = new int[p];
@@ -29,7 +29,7 @@ public class BestFit {
         }
 
         for (i = 0; i < m; i++) {
-            System.out.println("Tamanho da memÃ³ria [" + (i + 1) + "] :" );
+            System.out.println("Tamanho da memória [" + (i + 1) + "] :" );
             segMemoria[i] = in.nextInt();
             segMemoriaAux[i] = 0;
         }
@@ -51,17 +51,17 @@ public class BestFit {
         for (i = 0; i < m; i++) {                   
             if (segMemoria[i] > tamProcessos[j] && segMemoriaAux[i] == 0) {
                 segMemoria[i] -= tamProcessos[j];
-                System.out.println("Alocado processo " + (j + 1) + " para memoria " + (i + 1) + " tamanho que permaneceu depois de alocar " + segMemoria[i]);                                
+                System.out.println("Alocado processo " + (j + 1) + " para memória " + (i + 1) + " tamanho que permaneceu depois de alocar " + segMemoria[i])
                 j = j + 1; 
                 segMemoriaAux[i] = 1;
                 i = 0;
-                if (j == p) {                    
+                if (j == p) {
                     i = m;
                 }
-            }                       
+            }
         }
-        if (j < p) {                                
-            System.out.println("NÃ£o hÃ¡ mais memÃ³ria suficiente!");                                            
-        }        
+        if (j < p) {
+            System.out.println("Não há mais memória suficiente!");
+        }
     }
 }
