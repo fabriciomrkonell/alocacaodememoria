@@ -14,7 +14,7 @@ public class FirstFit {
         
         int p = in.nextInt();
 
-        System.out.println("NÃºmero de blocos de memória:");
+        System.out.println("Número de blocos de memória:");
         int m = in.nextInt();
 
         int parr[] = new int[p],
