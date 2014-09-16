@@ -6,4 +6,4 @@ Algoritmos em Java
 * Worst-Fit
 * Next-Fit
 
-Confira o mais detalhes <a href="#" target="blank">aqui</a>.
+Confira o mais detalhes <a href="http://fabricioronchi.com/blog/2014/09/02/algoritmos-de-alocacao-de-memoria.html">aqui</a>.
