@@ -1,4 +1,4 @@
-Algoritmos
+Algoritmos em Java
 =================
 
 * Fisrt-Fit
